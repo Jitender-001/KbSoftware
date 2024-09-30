@@ -64,7 +64,7 @@
     margin: 1rem;
     display: flex;
     flex-wrap: wrap ;
-    border: 1px solid red;   
+    /* border: 1px solid red;    */
 }
 
 .home .products .product-items .item{

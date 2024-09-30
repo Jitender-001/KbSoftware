@@ -70,14 +70,12 @@ function Contact() {
                             </div>
                             <div className="box">
                                 <div className="icon"><FaPhoneAlt/></div>
-                                <p>Office No. 1429, 14th Floor, Block D, CCC,
-                                    VIP Road Zirakpur, 140603
+                                <p>+91 8320121716
                                 </p>
                             </div>
                             <div className="box">
                                 <div className="icon"><MdEmail/></div>
-                                <p>Office No. 1429, 14th Floor, Block D, CCC,
-                                    VIP Road Zirakpur, 140603
+                                <p>kharidobefikar@gmail.com
                                 </p>
                             </div>
                         </div>

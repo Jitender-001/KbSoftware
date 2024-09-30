@@ -98,11 +98,11 @@
 .contact .lower-box .contact-info .contact-details .box{
     display: flex;
     gap: 4%;
-    
+    align-items: center;
 }
 
 .contact .lower-box .contact-info .contact-details .box .icon{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #1C5D99;
 }
 
