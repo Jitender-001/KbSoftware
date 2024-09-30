@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: auto;
+    /* position: relative; */
+}
+
+
+.home .container{
+    width: 100%;
+    height: auto;
+}
+
+/*  --------------- Carausel Styling ----------- */
+.slide-show{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid blue; */
+    padding: 0.3rem;
+}
+
+.slide-show .slides{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-show img{
+    width: 100%;
+    height: 400px;
+}
+
+
+/* ----------------------- Products styling ------------- */
+
+.home .products{
+    margin-top: 3rem;
+}
+
+.home .products .p-heading{
+    text-align: center;
+    margin: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.home .products .p-quote{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    overflow-x: visible;
+}
+
+.home .products .p-heading span{
+    color: rgb(77, 124, 211);
+}
+
+.home .products .product-items{
+    width: 95%;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap ;
+    border: 1px solid red;   
+}
+
+.home .products .product-items .item{
+    width: 30%;
+    margin: 1.5%;
+    border: 2px solid rgb(49, 122, 171);
+    height: auto;
+    padding: 1rem 2rem;
+    overflow-x: visible;
+    overflow-wrap:normal;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .products .product-items .item .item-image{
+    width: 100px;
+    height: auto;
+    border: 2px solid rgb(49, 122, 171);
+    border-radius: 50%;
+    /* margin: 0 33%; */
+}
+
+.home .products .product-items .item .item-name{
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+/* ------------------------ Marketing tools ----------------- */
+
+.home .marketing-tools {
+    margin-top: 3rem;
+    /* border: 1px solid tan; */
+}
+
+.home .marketing-tools .m-heading,.g-heading{
+    text-align: center;
+    margin: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.home .marketing-tools .m-heading span,.g-heading span{
+    color: rgb(77, 124, 211);
+}
+
+.home .marketing-tools .tools{
+    width: 95%;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap ;
+    /* border: 1px solid red; */
+    
+}
+
+.home .marketing-tools .tools .tool{
+    width: 30%;
+    margin: 1.5%;
+    border: 2px solid rgb(49, 122, 171);
+    height: auto;
+    padding: 1rem 2rem;
+    overflow-x: visible;
+    overflow-wrap:normal;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .marketing-tools .tools .tool .tool-image{
+    width: 100px;
+    height: auto;
+    border: 2px solid rgb(49, 122, 171);
+    border-radius: 50%;
+    /* margin: 0 33%; */
+}
+
+.home .marketing-tools .tools .tool .tool-name{
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+/* --------------- Inventory Styling ---------------- */
+
+.home .inventory{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: royalblue;
+    margin: 3rem 0;
+}
+
+.home .inventory h3{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+/*  ------------------  GST Features Styling ---------------- */
+
+.home .gst-features{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    /* border: 1px soild red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home .gst-features .gst-box{
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.home .gst-features .box{
+    width: 32%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* border: 1px solid blue; */
+}
+
+.home .gst-features .left-box,.home .gst-features .right-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.home .gst-features .left-box .l-box,.home .gst-features .right-box .r-box{
+    display: flex;
+    gap: 10px;
+    padding: 0.4rem;
+    margin: 1rem 0;
+}
+
+.home .gst-features .left-box .l-box .img-box,.home .gst-features .right-box .r-box .img-box{
+    width: 9rem;
+    height: 5.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(49, 122, 171); */
+    border-radius: 50%;
+    object-fit: cover;
+    background: #242526;
+    box-shadow: 0 0 1rem 0 #232323;
+}
+
+.home .gst-features .left-box .l-box img,.home .gst-features .right-box .r-box img{
+    width: 78%;
+    height: auto;
+}
+
+.home .gst-features .left-box .l-box .heading,.home .gst-features .right-box .r-box .heading{
+    font-size: 1.4rem;
+    color: rgb(49, 122, 171);
+    font-weight: 600;
+    margin: 0;
+}
+
+.home .gst-features .left-box .l-box p,.home .gst-features .right-box .r-box p{
+    font-size: 1rem;
+    color: #232323;
+    font-weight: 400;
+}
+
+/* -------------- media queries for mobiles and tablets ----------------- */
+
+@media (max-width:426px){
+    .home .products .product-items{
+        flex-direction: column;
+    }
+
+    .home .products .product-items .item{
+        width: 95%;
+    }
+
+    .home .marketing-tools .tools{
+        flex-direction: column;
+    }
+
+    .home .marketing-tools .tools .tool{
+        width: 95%;
+    }
+
+    .home .gst-features .gst-box{
+        flex-direction: column;
+    }
+
+    .home .gst-features .box{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .slide-show img{
+        width: 100%;
+        height: 200px;
+    }
+}
